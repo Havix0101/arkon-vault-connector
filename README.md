@@ -46,6 +46,22 @@ After marketplace approval, search for **Arkon Vault** in the Cursor Marketplace
 
 Add the remote server URL above using Streamable HTTP. Clients that support MCP OAuth discovery should not require a manually copied token.
 
+### Grok
+
+Open **Connectors**, choose **New Connector → Custom**, and enter the production MCP endpoint. Grok will discover Arkon Vault's OAuth flow and tools.
+
+### Mistral Work / Le Chat
+
+Open **Connectors**, choose **Add Connector → Custom MCP Connector**, name it `arkon-vault`, and enter the production MCP endpoint.
+
+### GitHub Copilot and VS Code
+
+Search for **Arkon Vault** in an MCP registry-enabled client, or add the production endpoint as a remote HTTP MCP server. The official registry identifier is:
+
+```text
+io.github.Havix0101/arkon-vault
+```
+
 ## Recommended workflow
 
 1. Call `vault_preflight` before starting substantial work.
