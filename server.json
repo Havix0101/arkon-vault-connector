@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.havix0101/arkon-vault",
+  "title": "Arkon Vault",
+  "description": "Private projects, preflight, decisions, and handoffs that keep work continuous across AI tools.",
+  "version": "1.6.0",
+  "websiteUrl": "https://vault.arkoncybersecurity.com",
+  "repository": {
+    "url": "https://github.com/Havix0101/arkon-vault-connector",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Havix0101/arkon-vault-connector/main/assets/arkon-logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "1536x1536"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vault.arkoncybersecurity.com/mcp"
+    }
+  ]
+}

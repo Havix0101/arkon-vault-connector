@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "arkon-vault": {
+      "url": "https://vault.arkoncybersecurity.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "arkon-vault",
+  "displayName": "Arkon Vault",
+  "version": "1.6.0",
+  "description": "Keep projects, decisions, and handoffs continuous across every AI you use.",
+  "author": {
+    "name": "Zachary Hammons",
+    "email": "support@arkoncybersecurity.com"
+  },
+  "publisher": "Zachary Hammons",
+  "homepage": "https://vault.arkoncybersecurity.com",
+  "repository": "https://github.com/Havix0101/arkon-vault-connector",
+  "license": "MIT",
+  "logo": "assets/arkon-logo.png",
+  "keywords": [
+    "ai-continuity",
+    "mcp",
+    "handoffs",
+    "shared-context",
+    "project-memory"
+  ],
+  "category": "productivity",
+  "tags": [
+    "continuity",
+    "collaboration",
+    "multi-ai"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "mcp.json"
+}

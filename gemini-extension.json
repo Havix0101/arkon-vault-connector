@@ -1,0 +1,11 @@
+{
+  "name": "arkon-vault",
+  "version": "1.6.0",
+  "description": "Keep projects, decisions, and handoffs continuous across every AI you use.",
+  "mcpServers": {
+    "arkon-vault": {
+      "httpUrl": "https://vault.arkoncybersecurity.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
