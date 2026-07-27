@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.havix0101/arkon-vault",
+  "name": "io.github.Havix0101/arkon-vault",
   "title": "Arkon Vault",
   "description": "Private projects, preflight, decisions, and handoffs that keep work continuous across AI tools.",
   "version": "1.6.0",
