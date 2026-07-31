@@ -12,7 +12,7 @@ During work:
 
 - Use `vault_get_context` or `vault_search_projects` when prior context would prevent rework.
 - Record stable choices with `vault_log_decision`.
-- Use `vault_checkpoint_handoff` after a meaningful milestone.
+- Use `vault_checkpoint_handoff` after a meaningful milestone and at least every 60 minutes during accepted work.
 
 Before ending:
 

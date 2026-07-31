@@ -22,17 +22,20 @@ https://vault.arkoncybersecurity.com/mcp
 
 Arkon Vault uses OAuth with dynamic client registration. A compatible client opens the Arkon Vault sign-in and workspace approval flow automatically when the connector is first used.
 
-### Gemini CLI
+### Google terminal clients
+
+Google now directs individual terminal users to Antigravity CLI. Existing Gemini
+CLI MCP settings are migrated automatically. For a fresh setup, add the
+production endpoint above as a remote MCP server in the client.
+
+Gemini CLI remains available for eligible enterprise and API-key users. Where
+the extension command is supported:
 
 ```shell
 gemini extensions install https://github.com/Havix0101/arkon-vault-connector
 ```
 
-Restart Gemini CLI after installation, then run:
-
-```text
-/mcp auth arkon-vault
-```
+Arkon Vault does not currently claim publication in Google's extension gallery.
 
 ### Cursor
 
@@ -66,7 +69,7 @@ io.github.Havix0101/arkon-vault
 
 1. Call `vault_preflight` before starting substantial work.
 2. Continue the most relevant active project or handoff instead of creating a parallel fork.
-3. Use `vault_checkpoint_handoff` after a meaningful milestone.
+3. Use `vault_checkpoint_handoff` after a meaningful milestone and at least every 60 minutes during accepted work.
 4. Record durable choices with `vault_log_decision`.
 5. Post or complete a handoff before leaving the session.
 
